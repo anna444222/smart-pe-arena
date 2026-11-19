@@ -1,0 +1,14 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "public"
+  functions = "netlify/functions"
+
+[[headers]]
+  for = "/ai/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/ai/wasm/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"

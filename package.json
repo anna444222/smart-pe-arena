@@ -1,0 +1,14 @@
+{
+  "name": "smart-pe-arena",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "setup-ai": "node scripts/fetch-ai-assets.mjs",
+    "dev": "npx netlify dev",
+    "build": "node scripts/fetch-ai-assets.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.14",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}

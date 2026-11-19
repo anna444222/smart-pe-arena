@@ -1,0 +1,17 @@
+{
+  "name": "SMART PE ARENA - AI พลศึกษา",
+  "short_name": "SMART PE",
+  "description": "เกมพลศึกษาตรวจจับการเคลื่อนไหวด้วย AI สำหรับนักเรียนประถมศึกษา",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050A1F",
+  "theme_color": "#00E5FF",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23050A1F'/><circle cx='50' cy='50' r='35' fill='none' stroke='%2300E5FF' stroke-width='8'/><text x='50' y='58' font-size='28' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PE</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
